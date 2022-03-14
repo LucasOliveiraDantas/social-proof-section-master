@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Outfit', sans-serif;
+}
+@media screen and (min-width: 360px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 1.5rem;
+  }
+  .section-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .title {
+    font-size: 36px;
+    text-align: center;
+    line-height: 2rem;
+    color: hsl(300, 43%, 22%);
+  }
+  .desc {
+    font-size: 17.5px;
+    text-align: center;
+    margin-top: 1.5rem;
+    color: hsl(216, 3%, 64%);
+    line-height: 1.5rem;
+  }
+  .review {
+    margin-top: 2.8rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+  .info-review {
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.8rem;
+  }
+  .img-review {
+    display: flex;
+    column-gap: 0.5rem;
+  }
+  .desc-review {
+    font-size: 15.5px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+  }
+  /*-------------------------------SEction-2---*/
+  .section-2 {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+  }
+  .card-testimonials {
+    background-color: hsl(300, 43%, 22%);
+    padding: 2.5rem 2rem;
+    border-radius: 0.55rem;
+    width: 100%;
+    height: auto;
+  }
+  .user {
+    display: flex;
+  }
+  .img-user {
+    width: 40px;
+    height: 40px;
+    border-radius: 5rem;
+  }
+  .info-user {
+    margin-left: 1.3rem;
+  }
+  .name-user {
+    font-size: 16px;
+    color: hsl(0, 0%, 100%);
+  }
+  .verification {
+    color: hsla(333, 80%, 67%, 0.534);
+  }
+  .comment {
+    margin-top: 2rem;
+    color: hsl(0, 0%, 83%);
+    line-height: 1.5rem;
+    width: 99%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 8rem 10rem;
+  }
+  .section-1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .text-intro {
+    width: 50%;
+  }
+  .title {
+    text-align: start;
+    font-size: 54px;
+    width: 80%;
+    line-height: 3.2rem;
+  }
+  .desc {
+    text-align: start;
+    width: 80%;
+    margin-top: 1rem;
+  }
+  .review {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+  .info-review {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 2rem;
+    column-gap: 1.5rem;
+    width: 425px;
+    height: auto;
+  }
+  .inf-r-2 {
+    margin-left: 3rem;
+  }
+  .inf-r-3 {
+    margin-left: 6rem;
+  }
+  .section-2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+    column-gap: 2rem;
+  }
+  .card-testimonials {
+    width: 345px;
+    height: 235px;
+  }
+  .card-2 {
+    margin-top: 1rem;
+  }
+  .card-3 {
+    margin-top: 2rem;
+  }
+  .comment {
+    margin-top: 1.5rem;
+    line-height: 1.4rem;
+  }
+}
