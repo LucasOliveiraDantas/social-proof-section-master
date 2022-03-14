@@ -1,5 +1,3 @@
-@import url(/root.css);
-
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap');
 
 *,
@@ -8,6 +6,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+:root {
+  --color-text-title-h1: hsl(300, 43%, 22%);
+  --color-text-desc-p: hsla(300, 43%, 22%, 0.65);
+  --color-bg-card-review: hsl(300, 24%, 96%);
+  --color-text-desc-review: hsl(300, 43%, 22%);
+  --color-bg-card-testimonials: hsl(300, 43%, 22%);
+  --color-text-name-user: hsl(0, 0%, 100%);
+  --color-text-info-varification: hsla(333, 80%, 67%, 0.65);
+  --color-text-comment: hsl(0, 0%, 90%);
 }
 
 body {
